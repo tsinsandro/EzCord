@@ -18,7 +18,7 @@ class Browser(QMainWindow):
         self.setCentralWidget(self.browser)
         
         # Set the window title
-        self.setWindowTitle("Discord Browser")
+        self.setWindowTitle("EzCord")
         
         # Maximize the window
         self.showMaximized()
@@ -28,7 +28,7 @@ class Browser(QMainWindow):
 
         # Set up the system tray icon
         self.tray_icon = QSystemTrayIcon(QIcon(), self)
-        self.tray_icon.setToolTip("Discord Browser")
+        self.tray_icon.setToolTip("EzCord")
         self.tray_icon.show()
 
     def inject_button(self):
